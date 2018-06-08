@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.wrapper {
+  margin: 0px;
+  padding: 0px; 
+}
+.home-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 230px);
+  position: fixed;
+  left: 115px;
+  top: 30px;
+}
+.home-page .icons {
+  display: inline-block; 
+}
+.home-page .icons ul {
+  text-decoration: none;
+  overflow: hidden;
+}
+.home-page .icons ul li {
+  float: left;
+  text-decoration: none;
+  display: flex;
+  margin-left: 30px; 
+}
+.home-page .icons ul li a {
+  float: right;
+  color: #454545;
+  text-decoration: none; 
+}
+.home-page .icons ul li:nth-child(1) {
+   margin-left: 0;
+}
+
+.home-page .logo {
+  display: inline-block; 
+}
+
+.home-page .contact-us {
+  display: inline-block; 
+}
+.contact-us ul li a {
+  font-family: 'hurmeLight';
+  color: #454545;
+  font-size: 20px;
+  text-align: right;
+  line-height: 10px;
+}
+.contact-us ul li a span {
+  font-size: 13px;
+  color: #bcbcbc;
+  letter-spacing: 4px;
+  display: block;
+}
+.center {
+  width: calc(100% - 230px);
+  height: calc(100% - 230px);
+  position: fixed;
+  left: 115px;
+  top: 130px;
+}
+.center .pic {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.center .pic.left {
+
+}
+.center .pic.right {
+  left: auto;
+  right: 0;
+}
+.center .pic.right figure {
+  left: auto;
+  right: 0;
+}
+.center .pic figure {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: calc(100vw - 230px);
+   height: 100%;
+   background: url(../images/1.jpg);
+   background-size: cover;
+}
+
+@font-face {
+  font-family: 'hurmeLight';
+  src: url("../fonts/hurmegeometricsans3_light-webfont.woff2") format("woff2"), 
+       url("../fonts/hurmegeometricsans3_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+  /*# sourceMappingURL=style.css.map */

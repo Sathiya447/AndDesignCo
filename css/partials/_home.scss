@@ -1,0 +1,53 @@
+.wrapper{
+  margin: 0px;
+  padding: 0px;
+ }
+.home-page{
+
+  .icons{
+      display: inline-block;
+      ul{
+       text-decoration: none;
+       margin-left: 115px;
+       // margin-top: 60px;
+       li{
+         float: left;
+         text-decoration: none;
+         display: flex;
+         a{
+           float: right;
+           color: #454545;
+           text-decoration: none;
+         }
+
+          &:nth-child(1){
+            margin-top: 60px;
+            margin-left: 30px;
+          }
+          &:nth-child(2){
+            margin-top: 60px;
+            margin-left: 30px;
+          }
+          &:nth-child(3){
+            margin-top: 60px;
+            margin-left: 25px;
+          }
+        }
+      }
+      }
+      .logo{
+          display: inline-block;
+      }
+      .contact-us{
+          display: inline-block;
+      }
+   }
+
+ @font-face {
+    font-family: 'hurme_geometric_sans_3light';
+    src: url('hurmegeometricsans3_light-webfont.woff2') format('woff2'),
+         url('hurmegeometricsans3_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
