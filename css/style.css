@@ -12,6 +12,9 @@ li {
   margin: 0px;
   padding: 0px; 
 }
+
+/* Sathiya's css commit */
+
 .home-page {
   display: flex;
   justify-content: space-between;
